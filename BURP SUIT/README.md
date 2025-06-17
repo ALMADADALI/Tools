@@ -13,7 +13,7 @@
 
 # Linux Installation
 ```sh
-wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install.sh | sudo bash
+wget -qO- https://raw.githubusercontent.com/ALMADADALI/Tools/refs/heads/main/BURP%20SUIT/Burpsuite-Professional-main/install.sh | sudo bash
 ```
 ## Run
 ```sh
@@ -29,7 +29,7 @@ burpsuitepro
 cd
 ```
 ```
-rm -rf Burpsuite-Professional && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/refs/heads/main/update.sh | sudo bash
+rm -rf Burpsuite-Professional && wget -qO- https://raw.githubusercontent.com/ALMADADALI/Tools/refs/heads/main/BURP%20SUIT/Burpsuite-Professional-main/update.sh | sudo bash
 ```
 </details>
 
