@@ -1,6 +1,9 @@
 ![Screenshot_2024-09-19_17_45_09](https://github.com/user-attachments/assets/873ef98a-48e0-445b-b5dc-eb5959ad5b34)
 
-# <h1 align="center">Burpsuite Professional v2025 latest</h1>
+<div align="center">
+
+# $${\color{orange}Burpsuite-Professional-v2025-latest}$$
+</div>
 
 <p align="center"> Burp Suite Professional is the web security tester's toolkit of choice. Use it to automate repetitive testing tasks - then dig deeper with its expert-designed manual and semi-automated security testing tools. Burp Suite Professional can help you to test for OWASP Top 10 vulnerabilities - as well as the very latest hacking techniques. Advanced manual and automated features empower users to find lurking vulnerabilities more quickly. Burp Suite is designed and used by the industry's best.</p>
 
@@ -9,37 +12,28 @@
 [Overview](https://portswigger.net/burp/pro)
 </h3>
  
-<br></br>
+<br>
+<br>
 
-# Linux Installation
+#  $${\color{magenta}Linux-Installation}$$
 ```sh
-wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install.sh | sudo bash
+sudo apt update && sudo apt install -y wget && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/main/install.sh | sudo bash
 ```
 ## Run
 ```sh
 burpsuitepro
 ```
-<details><summary>
+<details><summary></summary>
 
 ## Update
-</summary>
-
 > optional
-```sh
-cd
 ```
+cd && sudo rm -rf Burpsuite-Professional && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/refs/heads/main/update.sh | sudo bash
 ```
-rm -rf Burpsuite-Professional && wget -qO- https://raw.githubusercontent.com/xiv3r/Burpsuite-Professional/refs/heads/main/update.sh | sudo bash
-```
-</details>
-
-<details><summary>
  
 ## Java Version
-</summary>
-
-> select the default java version
-```sh
+> select the default openjdk runtime
+```
 sudo update-alternatives --config java
 ```               
 </details>
@@ -62,9 +56,13 @@ right click the desktop -> create a launcher name it Burpsuite Professional, add
  <img width="500" height="500" src="https://github.com/xiv3r/Burpsuite-Professional/blob/main/Launcher.jpg">
 </div>
 
+<br>
+<br>
+
 ---------
 
-# NixOS Installation
+#  $${\color{magenta}NixOS-Installation}$$
+
 ## Add this repo's flake to your flake inputs
 ```
 # flake.nix
@@ -83,7 +81,7 @@ right click the desktop -> create a launcher name it Burpsuite Professional, add
 ```
 
 ## Installing the package provided by the flake
-### You can install it with either `environment.systemPackages` or `home.packages`
+## You can install it with either `environment.systemPackages` or `home.packages`
 > With `environment.systemPackages` (nixosModules)
 
   ```
@@ -105,10 +103,12 @@ right click the desktop -> create a launcher name it Burpsuite Professional, add
 
 NOTE: `loader.jar` is symlinked to `burpsuite.jar` so burpsuite recognizes the license keys. You can access the `loader` command from the terminal only
 
-
-# Windows Installation
-
 <br>
+<br>
+
+----------
+
+# $${\color{magenta}Windows-Installation}$$
  
 - Make a `Burp` directory name in `C Drive` for faster access.
 
@@ -140,7 +140,12 @@ NOTE: `loader.jar` is symlinked to `burpsuite.jar` so burpsuite recognizes the l
 
       C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
 
-# Installing Burp Suite Professional on macOS
+<br>
+<br>
+
+------------
+
+# $${\color{magenta}MacOS-Installation}$$ 
 
 ## Step 1: Install Dependencies with Homebrew
 Install Homebrew and required dependencies (`git`, `openjdk@17`).
@@ -175,7 +180,10 @@ sudo cp burp /usr/local/bin/burp
 - **Running the Shortcut**: Run `burp` from the `Burpsuite-Professional` directory containing `loader.jar` and `burpsuite_pro_v2025.5.6.jar`. For global use, replace `$(pwd)` with absolute paths.
 
 
- <details><summary>Credit</summary>
+<details><summary>
+
+## Credits
+</summary>
 
 * Loader.jar 👉 [h3110w0r1d-y](https://github.com/h3110w0r1d-y/BurpLoaderKeygen)
 * Script 👉 [cyb3rzest](https://github.com/cyb3rzest/Burp-Suite-Pro)
